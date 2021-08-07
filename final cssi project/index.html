@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Margins Record</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bulma.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.0/milligram.css" />
+</head>
+
+<body>
+    <div id="container">
+        <h1>Margins Record</h1>
+        <div id="write">
+            <label for="noteTitle">Note Title</label>
+            <input type="text" id="noteTitle" />
+            <label for="noteBody">Note</label>
+            <textarea id="noteBody"></textarea>
+            <button class="button is-link is-active" id="saveButton">Save Note</button>
+            <button class="button is-danger is-active" id="cancelButton">Cancel</button>
+        </div>
+        <!-- write -->
+        <div id="read">
+            <button class="button is-success is-active" id="writeButton">Write Note</button>
+
+            <select size="10" id="noteMaster"> </select>
+            <div id="noteDisplay"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

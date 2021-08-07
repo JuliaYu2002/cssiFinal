@@ -1,0 +1,33 @@
+html {
+    background-color: #EDABB1;
+}
+
+#container {
+    padding: 15px;
+}
+
+#container h1 {
+    font-family: "Cedarville Cursive", cursive;
+    text-align: center;
+    color: #9AC4F8;
+}
+
+#noteBody {
+    height: 200px;
+    background-color: #BBDDF1;
+}
+
+select {
+    height: 200px !important;
+}
+
+#noteTitle {
+    background-color: #FFFDD0;
+}
+
+#noteDisplay {
+    padding: 20px;
+    border: 1px solid #DB5461;
+    background-color: #F5EBFF;
+    border-radius: 5px;
+}
